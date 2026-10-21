@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BazaarHub - Online Shop</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap nav">
+        <a class="logo" href="index.html">Bazaar<b>Hub</b></a>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">
+          ☰
+        </button>
+        <nav>
+          <a href="index.html" class="on">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero slider -->
+    <div class="slider">
+      <div class="slides">
+        <div class="slide s1">
+          <div class="wrap">
+            <h1>Everything you need, in one store</h1>
+            <p>
+              Electronics, fashion, home and beauty products at fair prices.
+            </p>
+            <a class="btn" href="products.html">Shop now</a>
+          </div>
+        </div>
+
+        <div class="slide s2">
+          <div class="wrap">
+            <h1>Cash on delivery across Pakistan</h1>
+            <p>Check your order first, then pay. No advance payment.</p>
+            <a class="btn" href="products.html">Browse products</a>
+          </div>
+        </div>
+
+        <div class="slide s3">
+          <div class="wrap">
+            <h1>New fashion at great prices</h1>
+            <p>Kurtas, lawn suits and accessories with quality guaranteed.</p>
+            <a class="btn" href="products.html">View fashion</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="arrow prev" aria-label="Previous slide">‹</button>
+      <button class="arrow next" aria-label="Next slide">›</button>
+      <div class="dots"></div>
+    </div>
+    <main>
+      <!-- Categories -->
+      <section>
+        <div class="wrap">
+          <h2>Shop by category</h2>
+          <p class="sub">Pick a category to get started</p>
+          <div class="cats">
+            <a class="cat" href="products.html?cat=Electronics"
+              ><span>🎧</span>Electronics</a
+            >
+            <a class="cat" href="products.html?cat=Fashion"
+              ><span>👕</span>Fashion</a
+            >
+            <a class="cat" href="products.html?cat=Home"><span>🏠</span>Home</a>
+            <a class="cat" href="products.html?cat=Beauty"
+              ><span>🌸</span>Beauty</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured products -->
+      <section>
+        <div class="wrap">
+          <h2>Popular products</h2>
+          <p class="sub">Our most ordered items</p>
+          <div class="grid" id="featured"></div>
+        </div>
+      </section>
+    </main>
+    <!-- Why choose us -->
+    <section class="why-section">
+      <div class="wrap">
+        <h2>Why shop with us?</h2>
+        <p class="sub">Your satisfaction is our priority</p>
+        <div class="why">
+          <div>
+            <h3>Cash on delivery</h3>
+            <p>Pay when your order arrives at your door.</p>
+          </div>
+          <div>
+            <h3>Fast delivery</h3>
+            <p>Orders reach you within 2 to 4 days.</p>
+          </div>
+          <div>
+            <h3>7-day returns</h3>
+            <p>Not happy? Return your product easily.</p>
+          </div>
+          <div>
+            <h3>WhatsApp support</h3>
+            <p>Quick answers to all your questions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrap">
+        <div class="cols">
+          <div>
+            <div class="logo">Bazaar<b>Hub</b></div>
+            <p>Quality products with cash on delivery across Pakistan.</p>
+          </div>
+          <div>
+            <strong>Pages</strong>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <strong>Contact</strong>
+            <a href="mailto:info@yourshop.com">info@yourshop.com</a>
+            <span>Lahore, Pakistan</span>
+          </div>
+        </div>
+        <div class="copy">© 2026 BazaarHub. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp button -->
+    <a
+      class="wa"
+      id="wa-float"
+      href="#"
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+      >💬</a
+    >
+    <script src="assets/app.js"></script>
+  </body>
+</html>
